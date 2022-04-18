@@ -1,4 +1,3 @@
-
 //새로고침 했을 때 스크롤바를 맨 위로 올라가게
 $('html, body').stop().animate({
     scrollTop : 0
@@ -225,5 +224,3 @@ $('.contact a').on('click', function(){
     href = 'mailto:wdh123456@naver.com' + address + subject + body
     $(this).attr('href', href)
 })
-
-
